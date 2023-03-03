@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .header {
+    @apply m-3 p-6 bg-blue-100 rounded-lg;
+    justify-content:center;
+  }
+  .box {
+    @apply m-3 p-6 bg-yellow-200 rounded-lg;
+  }
+  .inputbox {
+    @apply bg-pink-50 border-white border-spacing-3 flex-auto;
+  }
+  .mybutton {
+    @apply bg-gray-200 p-2 m-2;
+  }
+  .del {
+    @apply bg-gray-200 p-2 m-2;
+  }
+}
